@@ -1,0 +1,6 @@
+framework module SwifterKit {
+  umbrella header "SwifterKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
