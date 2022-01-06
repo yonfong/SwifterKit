@@ -14,10 +14,11 @@
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		33D5E48F27866AF80040F1ED /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5E48C27866AF80040F1ED /* UITableViewExtension.swift */; };
+		33D5E49027866AF80040F1ED /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5E48D27866AF80040F1ED /* ColorExtension.swift */; };
+		33D5E49127866AF80040F1ED /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5E48E27866AF80040F1ED /* UICollectionViewExtension.swift */; };
+		33D5E493278676A10040F1ED /* UILabel+Tapble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5E492278676A10040F1ED /* UILabel+Tapble.swift */; };
 		33E1201B2777020B000F87B3 /* SwiftyDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1201A2777020B000F87B3 /* SwiftyDefine.swift */; };
-		33E1201E27770A3D000F87B3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1201D27770A3D000F87B3 /* ColorExtension.swift */; };
-		33E1202027770D40000F87B3 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1201F27770D40000F87B3 /* UITableViewExtension.swift */; };
-		33E1202227770E67000F87B3 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1202127770E67000F87B3 /* UICollectionViewExtension.swift */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		427B517113A9F90290C8AD591FFFD8F5 /* Pods-SwifterKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE918D619DF4AAD3E0A53FF4DEEC8ED /* Pods-SwifterKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -81,10 +82,11 @@
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		33D5E48C27866AF80040F1ED /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		33D5E48D27866AF80040F1ED /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		33D5E48E27866AF80040F1ED /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		33D5E492278676A10040F1ED /* UILabel+Tapble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Tapble.swift"; sourceTree = "<group>"; };
 		33E1201A2777020B000F87B3 /* SwiftyDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftyDefine.swift; path = SwifterKit/Classes/SwiftyDefine.swift; sourceTree = "<group>"; };
-		33E1201D27770A3D000F87B3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = ../SwifterKit/Classes/Extensions/ColorExtension.swift; sourceTree = "<group>"; };
-		33E1201F27770D40000F87B3 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UITableViewExtension.swift; path = ../SwifterKit/Classes/Extensions/UITableViewExtension.swift; sourceTree = "<group>"; };
-		33E1202127770E67000F87B3 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UICollectionViewExtension.swift; path = ../SwifterKit/Classes/Extensions/UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		3F79921E9276889F1A7FFDA13900677C /* Pods-SwifterKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwifterKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -114,7 +116,7 @@
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		9810ED9CB0D4F77A039802971FACE44E /* SwifterKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwifterKit-Info.plist"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9AD11B5834E765A13422EB04A7B6BFC9 /* SwifterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwifterKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD11B5834E765A13422EB04A7B6BFC9 /* SwifterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwifterKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B4779912C085BC8D7AF54852BA50234D /* Pods-SwifterKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwifterKit_Tests"; path = Pods_SwifterKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,14 +185,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		33E1201C277709F4000F87B3 /* Extensions */ = {
+		33D5E48B27866AF80040F1ED /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				33E1201D27770A3D000F87B3 /* ColorExtension.swift */,
-				33E1201F27770D40000F87B3 /* UITableViewExtension.swift */,
-				33E1202127770E67000F87B3 /* UICollectionViewExtension.swift */,
+				33D5E48C27866AF80040F1ED /* UITableViewExtension.swift */,
+				33D5E48D27866AF80040F1ED /* ColorExtension.swift */,
+				33D5E48E27866AF80040F1ED /* UICollectionViewExtension.swift */,
+				33D5E492278676A10040F1ED /* UILabel+Tapble.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = SwifterKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -217,7 +221,7 @@
 		7832932F98E115E2522EAAB65719A4C5 /* SwifterKit */ = {
 			isa = PBXGroup;
 			children = (
-				33E1201C277709F4000F87B3 /* Extensions */,
+				33D5E48B27866AF80040F1ED /* Extensions */,
 				C60B378EEBBE39B5F160A183DDE50ABB /* ReplaceMe.swift */,
 				E084D333CFF1CAF893FB0A71891BE29E /* Pod */,
 				A4CDF6F96589E65191ED8FD5401100AB /* Support Files */,
@@ -564,11 +568,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F52B666983CF9B0F921D416F2903BEF6 /* ReplaceMe.swift in Sources */,
-				33E1202027770D40000F87B3 /* UITableViewExtension.swift in Sources */,
+				33D5E493278676A10040F1ED /* UILabel+Tapble.swift in Sources */,
 				1E67FBFFDB2F99A07060311CE9E35A5F /* SwifterKit-dummy.m in Sources */,
 				33E1201B2777020B000F87B3 /* SwiftyDefine.swift in Sources */,
-				33E1202227770E67000F87B3 /* UICollectionViewExtension.swift in Sources */,
-				33E1201E27770A3D000F87B3 /* ColorExtension.swift in Sources */,
+				33D5E48F27866AF80040F1ED /* UITableViewExtension.swift in Sources */,
+				33D5E49127866AF80040F1ED /* UICollectionViewExtension.swift in Sources */,
+				33D5E49027866AF80040F1ED /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

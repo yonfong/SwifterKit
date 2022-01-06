@@ -43,11 +43,6 @@ public extension HexColor {
         return self.hexColor(hexString: hexString, alpha: 1.0)
     }
     
-    /// Creat real color by hex string
-    /// - Parameters:
-    ///   - hexString: Hex string like "FFFFFF". Support RGB and ARGB hex string
-    ///   - alpha: The opacity value of the color object, specified as a value from 0.0 to 1.0.
-    /// - Returns: HexColor. (Return clear color when hex format is error)
     class func hexColor(hexString: String, alpha: CGFloat) -> HexColor {
         
         var resultHex = hexString
